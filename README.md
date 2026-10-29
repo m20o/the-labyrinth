@@ -7,4 +7,11 @@ mkdir -p ~/labyrinth && cd ~/labyrinth
 claude plugin install labyrinth --marketplace m20o/the-labyrinth --scope local
 ```
 
-Then open a Claude Code session in `~/labyrinth` and run `/labyrinth:start` with the Invite the Sysop sent you. Uninstall after the game with `claude plugin uninstall labyrinth`.
+Then, in a terminal, run `claude` in `~/labyrinth` and type `/labyrinth:start` with the Invite the Sysop sent you. Play from the terminal, not the desktop app: the desktop app does not start the narrator.
+
+Uninstall after the game:
+
+```bash
+cd ~/labyrinth && claude plugin uninstall labyrinth --scope local
+claude plugin marketplace remove labyrinth
+```
