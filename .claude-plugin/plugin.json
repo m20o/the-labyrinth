@@ -6,7 +6,7 @@
   "mcpServers": {
     "maze": {
       "type": "http",
-      "url": "${LABYRINTH_URL:-https://LABYRINTH_HOST/mcp}"
+      "url": "${LABYRINTH_URL:-http://LABYRINTH_HOST/mcp}"
     }
   }
 }
