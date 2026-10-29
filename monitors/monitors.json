@@ -1,0 +1,8 @@
+[
+  {
+    "name": "news",
+    "command": "\"${CLAUDE_PLUGIN_ROOT}\"/scripts/news.sh",
+    "description": "Distant sounds from the Labyrinth",
+    "when": "on-skill-invoke:start"
+  }
+]

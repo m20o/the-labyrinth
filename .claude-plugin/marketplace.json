@@ -1,0 +1,14 @@
+{
+  "name": "labyrinth",
+  "owner": {
+    "name": "Massimiliano Mazzarolo"
+  },
+  "description": "The Labyrinth: a blind team text adventure for the retreat.",
+  "plugins": [
+    {
+      "name": "labyrinth",
+      "source": "./",
+      "description": "A blind team text adventure for the retreat."
+    }
+  ]
+}

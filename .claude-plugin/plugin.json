@@ -1,0 +1,12 @@
+{
+  "name": "labyrinth",
+  "displayName": "The Labyrinth",
+  "description": "A blind team text adventure for the retreat: your Claude is the narrator, the Maze lives on a shared server.",
+  "author": { "name": "Massimiliano Mazzarolo" },
+  "mcpServers": {
+    "maze": {
+      "type": "http",
+      "url": "${LABYRINTH_URL:-https://LABYRINTH_HOST/mcp}"
+    }
+  }
+}
